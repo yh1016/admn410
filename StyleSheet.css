@@ -1,0 +1,133 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header, footer {
+    font-size: 12px;
+    color: #888;
+    background: #333;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+nav {
+    border-bottom: 2px solid #EEE;
+    background: #FFF;
+}
+
+.nav-items {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+    .nav-item a:link, .nav-item a:visited {
+        color: #333;
+        border-bottom: 2px solid #FFF;
+    }
+
+    .nav-item a:hover, .nav-item a:active {
+        color: #333;
+        border-bottom: 2px solid #ED85BB;
+    }
+
+    .nav-item-highlight a:link, .nav-item-highlight a:visited {
+        color: #333;
+        border-bottom: 2px solid #ED85BB;
+    }
+
+.logo {
+    width: 75px;
+    font-weight: bold;
+}
+
+body{
+    background: #EEEEEE;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.context {
+    font-size: 12px;
+    color: #555;
+    line-height: 14px;
+}
+a.product-catagory {
+    display:inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 5px;
+    color: #097BC8;
+    border: 1px solid #DDD;
+}
+    a.product-catagory:hover, a.product-catagory:active {
+        color: #ED85BB;
+        border: 1px solid #ED85BB;
+    }
+a.product-catagory img{
+    width:160px;
+    height:180px;
+}
+
+.employee {
+    padding:15px 0;
+    border-bottom:2px solid #EEE;
+    text-align:left;
+}
+    .employee span {
+        color: #097BC8;
+        margin-left: 15px;
+    }
+.employee img{
+    width:120px;
+    vertical-align:middle;
+}
+.policy {
+    color:#888;
+    margin-bottom:50px;
+}
+    .policy div {
+        color: #333;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+.contact {
+    color:#097BC8;
+}
+.contact li{
+    margin:15px;
+}
+.contact span {
+    color: #AAA;
+}
